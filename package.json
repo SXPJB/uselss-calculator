@@ -1,6 +1,6 @@
 {
   "name": "uselss-calculator-sxpjb",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This is a calculator that uses lesss-sass",
   "main": "dist-node/index.js",
   "browser": "dist-browser/index.js",
@@ -16,6 +16,11 @@
   ],
   "author": "@SXPJB <emmanuel.hernandezramirez@gmail.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SXPJB/uselss-calculator"
+  },
+  "homepage": "https://github.com/SXPJB/uselss-calculator#readme",
   "dependencies": {
     "typescript": "^4.7.3"
   }
