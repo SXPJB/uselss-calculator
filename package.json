@@ -1,0 +1,22 @@
+{
+  "name": "uselss-calculator-sxpjb",
+  "version": "1.0.1",
+  "description": "This is a calculator that uses lesss-sass",
+  "main": "dist-node/index.js",
+  "browser": "dist-browser/index.js",
+  "scripts": {
+    "build-browser": "tsc src/index.ts --outDir dist-browser  --module ES6",
+    "build-node": "tsc src/index.ts --outDir dist-node",
+    "build": "npm run build-browser && npm run build-node"
+  },
+  "keywords": [
+    "uselss",
+    "calculator",
+    "ts"
+  ],
+  "author": "@SXPJB <emmanuel.hernandezramirez@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^4.7.3"
+  }
+}
